@@ -2,8 +2,13 @@ import Styles from '@styles/Home.module.scss';
 
 export default function Home() {
   return (
-    <div className={Styles.Home}>
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <head>
+        <title>Home</title>
+      </head>
+      <div className={Styles.Home}>
+        <h1></h1>
+      </div>
+    </>
   )
 }

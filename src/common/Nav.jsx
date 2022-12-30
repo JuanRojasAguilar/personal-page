@@ -2,27 +2,31 @@ import Styles from '@styles/Nav.module.scss'
 
 export default function Nav() {
     return(
-        <nav className={Styles.navBody}>
-            <div>
-                Image
+        <header className={Styles.header}>
+            <div className={Styles.headerTop}>
+                <div>
+                    <a className={Styles.logo}>
+                        <span className={Styles.logoName}>Juan Diego <strong>Rojas Aguilar</strong></span>
+                        <span className={Styles.logoCv}>Download <strong>CV</strong></span>
+                    </a>
+                </div>
+                <div>
+                    <ul className={Styles.navList}>
+                        <li>
+                            <a>Home</a>
+                            <a>Home</a>
+                        </li>
+                        <li>
+                            <a>Contact</a>
+                            <a>Contact</a>
+                        </li>
+                        <li>
+                            <a>Resume</a>
+                            <a>Resume</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div className={Styles.navList}>
-                <li>
-                    <a>
-                        About Me
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        Resume
-                    </a>
-                </li>
-            </div>
-        </nav>
+        </header>
     )
 }
