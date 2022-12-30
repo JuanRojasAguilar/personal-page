@@ -12,7 +12,7 @@ export default function Nav() {
                 </div>
                 <div>
                     <ul className={Styles.navList}>
-                        <li>
+                        <li className={Styles.home}>
                             <a>Home</a>
                             <a>Home</a>
                         </li>

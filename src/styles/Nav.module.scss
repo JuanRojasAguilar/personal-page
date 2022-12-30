@@ -8,6 +8,7 @@
     width: 100%;
     color: $light-green;
     font-size: 20px;
+    user-select: none;
 }
 .headerTop {
     position: relative;
@@ -22,4 +23,7 @@
 .navList {
     display: flex;
     list-style: none;
+}
+.navList a {
+    padding-right: 16px;
 }
