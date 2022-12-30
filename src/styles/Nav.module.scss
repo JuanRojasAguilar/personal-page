@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+.navBody {
+    display: flex;
+    background-color: $dark-green;
+    justify-content: space-between;
+    color: $pale-green;
+    font-size: 24px;
+    padding: 20px;
+}
+.navList {
+    display: flex;
+}
+.navList li {
+    list-style: none;
+}
+.navList a {
+    padding: 16px;
+}
