@@ -8,7 +8,7 @@ export default function Home() {
         <title>JuanDeveloper</title>
       </Head>
       <main className={Styles.mainHome}>
-        <h1>Ejemplo</h1>
+        <h1>funciona?</h1>
       </main>
     </>
   )

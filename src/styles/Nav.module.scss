@@ -1,6 +1,7 @@
 @use 'variables' as *;
 
 .header {
+    z-index: 1000;
     background-color: $dark-green;
     position: fixed;
     overflow: hidden;

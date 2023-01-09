@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head />
-      <body>
+      <body style={{marginTop: 6.96 + 'rem'}}>
         <Main />
         <NextScript />
       </body>

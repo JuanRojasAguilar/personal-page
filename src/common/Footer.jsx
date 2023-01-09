@@ -6,12 +6,15 @@ import Styles from '@styles/Footer.module.scss';
 export default function Footer() {
     return(
         <footer className={Styles.footer}>
-            <a href='https://github.com/JuanRojasAguilar'>
-                <Image src={githubIcon} alt='Github logo' className={Styles.logo} />
-            </a>
-            <a href='https://www.linkedin.com/in/juandrojasa/'>
-                <Image src={linkedinIcon} alt='Linkedin logo' className={Styles.logo}/>
-            </a>
+            <span className={Styles.email}>yo217@hotmail.es</span>
+            <div className={Styles.divLogos}>
+                <a href='https://github.com/JuanRojasAguilar'>
+                    <Image src={githubIcon} alt='Github logo' className={Styles.logo} />
+                </a>
+                <a href='https://www.linkedin.com/in/juandrojasa/'>
+                    <Image src={linkedinIcon} alt='Linkedin logo' className={Styles.logo}/>
+                </a>
+            </div>
         </footer>
     )
 }

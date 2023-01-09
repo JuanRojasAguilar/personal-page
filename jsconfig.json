@@ -6,7 +6,8 @@
             "@pages/*": ["pages/*"],
             "@common/*": ["common/*"],
             "@layout/*": ["layout/*"],
-            "@icons/*": ["icons/*"]
+            "@icons/*": ["icons/*"],
+            "@fonts/*": ["fonts/*"]
         }
     }
 }

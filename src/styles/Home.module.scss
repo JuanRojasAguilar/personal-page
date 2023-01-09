@@ -1,5 +1,7 @@
 @use 'variables' as *;
 
 .mainHome {
+    display: flex;
+    z-index: 0;
     background-color: $pale-green;
 }
