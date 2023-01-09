@@ -27,5 +27,8 @@
     padding: $small;
 }
 .navList a:hover {
-    
+    cursor: pointer;
+    background-color: $pale-green;
+    color: $dark-green;
+    border-radius: 0.4rem;
 }

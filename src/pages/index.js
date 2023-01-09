@@ -7,9 +7,9 @@ export default function Home() {
       <Head>
         <title>JuanDeveloper</title>
       </Head>
-      <div className={Styles.Home}>
-        <h1></h1>
-      </div>
+      <main className={Styles.mainHome}>
+        <h1>Ejemplo</h1>
+      </main>
     </>
   )
 }
