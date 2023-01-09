@@ -2,6 +2,30 @@
 
 .mainHome {
     display: flex;
+    height: 85vh;
     z-index: 0;
     background-color: $pale-green;
+}
+.presentation {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.presentation p {
+    padding: 0 10rem;
+    font-size: $medium-large;
+}
+.picture {
+    overflow: hidden;
+    margin: auto;
+    border: 0.1rem;
+    border-radius: 3rem;
+    position: relative;
+    width: 30rem;
+    height: 35rem;
+}
+.photo {
+    max-width: 100%;
+    height: auto;
 }
