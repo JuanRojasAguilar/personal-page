@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    align-items: center;
+    background-color: $heavy-green;
+}
+.logo {
+    width: 4rem;
+    margin-right: 1rem;
+}
+.logo:hover {
+    cursor: pointer;
+}
