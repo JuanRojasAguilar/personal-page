@@ -3,27 +3,29 @@
 .header {
     background-color: $dark-green;
     position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    color: $light-green;
-    font-size: 20px;
-    user-select: none;
-}
-.headerTop {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-}
-.logo {
-    position: absolute;
     overflow: hidden;
-    top:50%;
+    top: 0;
+    width: 100vw;
+    color: $light-green;
+    font-size: $medium-large;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: $small;
+}
+.name {
+    padding-left: $small;
 }
 .navList {
     display: flex;
     list-style: none;
+    margin-right: $medium;
+    padding: 0;
 }
 .navList a {
-    padding-right: 16px;
+    padding: $small;
+}
+.navList a:hover {
+    
 }
